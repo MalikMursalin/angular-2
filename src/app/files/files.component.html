@@ -1,0 +1,7 @@
+<input type="file" (change)="onFileSelected($event)" />
+<div>
+  <!-- Display the retrieved HTML content here -->
+  <div [innerHTML]="htmlContent"></div>
+</div>
+
+<button (click)="retrieveHtmlFile()">Retrieve HTML File</button>
